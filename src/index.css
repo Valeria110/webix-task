@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: #607d8b;
+  color: white;
+  font-weight: bold;
+}
+
+.header-label .webix_el_box {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.profile-btn .webix_button {
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
+.webix_icon.wxi-user,
+.webix_icon_button:hover .webix_icon,
+.webix_icon_button:focus .webix_icon {
+  color: #fff;
+}
+.webix_icon_button:hover {
+  background-color: transparent;
+}
+
+.webix_icon_button:hover:before {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.webix_view .webix_list.list {
+  font-size: 1.3rem;
+  background-color: #e6e6e6;
+  box-shadow: none;
+}
+.connected {
+  border-bottom: 1px solid gray;
+  text-align: center;
+  color: green;
+  font-size: 1.1rem;
+  background-color: #e6e6e6;
+}
+
+.webix_shadow_medium .webix_vscroll_x {
+  overflow-x: auto;
+}
+
+.webix_el_button.webix_danger .webix_button {
+  background-color: #e6e6e6af;
+  color: #1ca1c1;
+}
+.webix_el_button.webix_danger .webix_button:hover {
+  background-color: #d1d0d08e;
+}
+
+.webix_view.footer {
+  text-align: center;
+}
